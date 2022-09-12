@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * main - Entry point
  *
- *
- * Decription: print
- *
- *
- *
+ * Return: Always success
  */
 int main(void)
 {
