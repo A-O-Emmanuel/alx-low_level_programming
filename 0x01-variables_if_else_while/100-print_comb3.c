@@ -30,6 +30,6 @@ int main()
 			++n2;
 		}
 	}	++n1;
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
