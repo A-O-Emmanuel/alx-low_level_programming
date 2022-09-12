@@ -19,7 +19,7 @@ int main(void)
 			if(n1 != n2 && n1 < n2)
 			{
 				putchar(n1 + 48);
-				putcahr(n1 + 48);
+				putchar(n1 + 48);
 
 				if(n1 + n2 !=17)
 				{
@@ -30,6 +30,6 @@ int main(void)
 			++n2;
 		}
 	}	++n1;
-putcahr('\n');
+putchar('\n');
 return (0);
 }
