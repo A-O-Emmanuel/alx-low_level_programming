@@ -8,6 +8,7 @@
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
+
 	j = 1;
 	k = 2;
 
@@ -19,6 +20,7 @@ int main(void)
 		k = k + j;
 		j = k - j;
 	}
+
 	j1 = j / 1000000000;
 	j2 = j % 1000000000;
 	k1 = k / 1000000000;
@@ -33,6 +35,8 @@ int main(void)
 		k2 = k2 + j2;
 		j2 = k2 - j2;
 	}
+
 	printf("\n");
+
 	return (0);
 }
