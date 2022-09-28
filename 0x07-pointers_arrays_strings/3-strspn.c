@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h"  
 
 /**
  * _strspn - gets lengthof a prefix substring
@@ -7,7 +7,6 @@
  *
  * Return: number of bytes of s in accept
  */
-
 usingned int _strspn(char *s, char *accept)
 {
 	unsinged int i, j;
