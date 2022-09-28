@@ -1,10 +1,10 @@
 #include "main.h"  
 /**
- * _strspn - gets lengthof a prefix substring
- * @s: string to check
- * @accept: string to check against
+ * _strspn - prints the consecutive characters of sl taht are in s2.
+ * @s: source string
+ * @accept: searching string
  *
- * Return: number of bytes of s in accept
+ * Return: new string
  */
 unsigned int _strspn(char *s, char *accept)
 {
