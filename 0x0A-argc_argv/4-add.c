@@ -5,7 +5,7 @@
 /**
  * main - Prgram that adds positive numbers
  * @argc: This is the argument count
- * @argv: This is the arguemtn vector
+ * @argv: This is the argument vector
  *
  * Return: 0;
  */
@@ -35,6 +35,6 @@ int main(int argc, char *argv[])
 	{
 		sum += atoi(argv[i]);
 	}
-	printf("%\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
