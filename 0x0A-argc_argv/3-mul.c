@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 /**
  * main - Program that mutiplies two numbers.
  * @argc: This is the argument count
