@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - adds nubmers
+ * main - adds numbers
  * @argc: number of arguments passed to the function
  * @argv: arguments vector of pinters to srings
  *
