@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _strdup - returns a pointer to a newly allocated
@@ -12,25 +13,33 @@
 
 char *_strdup(char *str)
 {
-	char *cpy;
-	int index, len;
+	char *nstr;
+	unsigned int len, i;
 
+	/* check is str is null */
 	if (str == NULL)
-		return (NULL);
-
-	for (index = 0; str[index]; index++)
-		len++;
-	cpy = malloc(sizeof(cahr) * (len + 1);
-
-	if (cpy == NULL)
-		return (NULL);
-
-	for (index = 0; str[index]; index++)
 	{
-		cpy[index] = str[index];
+		return (NULL);
 	}
 
-	cpy[len] = '\0';
+	len = 0;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
 
-	return (cpy);
+	nstr = malloc(sizeof(char) * (len + 1));
+
+	/*chack if malloc was successful*/
+	if (nstr == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; i < len; i++)
+	{
+		nstr[i] = str[i];
+	}
+	nstr[len] = '\0';
+	return (nstr);
 }
