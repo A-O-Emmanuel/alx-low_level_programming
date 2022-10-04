@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * str_concat - conctenates 2 strings.
@@ -12,7 +13,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int len1, len2 size, i, j;
+	unsigned int len1, len2, size, i, j;
 	char *nstr;
 
 	if (s1 == NULL)
