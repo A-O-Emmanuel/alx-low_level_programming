@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
  * str_concat - conctenates 2 strings.
  * a NULL string is treated as an empty string.
