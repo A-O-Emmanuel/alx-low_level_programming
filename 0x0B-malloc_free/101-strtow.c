@@ -1,28 +1,20 @@
 #include "main.h"
 
 /**
- * wordnos - counts no of words in a given string
- * @s: pointer to the string
+ * len - returns length of str
+ * @str: string to be counted
  *
- * Return: No. of words in the string (int)
+ * Return: length of the string
  */
-int wordnos(char *s)
+
+int len(char *str)
 {
-	int flag, c, w;
+	int len = 0;
 
-	flag = 0;
-	w = 0;
-
-	for (c = 0; s[c] != '\0'; c++)
+	if (str != NULL)
 	{
-		if (s[c] == ' ')
-			flag = 0;
-		else if (flag == 0)
-		{
-			flag = 1;
-			w++;
-		}
+		while (str[len])
+			len++;
 	}
-
-	return (w);
+	return (len);
 }
