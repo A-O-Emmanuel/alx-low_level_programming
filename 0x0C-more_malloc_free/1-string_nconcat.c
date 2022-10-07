@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * _strlen - calculate and retrun string length
