@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * print_list - print all the elements of a list_t list.
  * @h: singly linked list.
@@ -18,5 +19,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		nelem++;
 	}
-	return(nelem);
+	return (nelem);
 }
